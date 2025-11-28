@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #0078D7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background: #0078D7;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Designed using Notepad</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>About Me</h2>
+        <p>This is a simple website created using only Notepad and HTML.</p>
+        
+        <h2>My Goals</h2>
+        <ul>
+            <li>Learn web design</li>
+            <li>Create useful websites</li>
+            <li>Become a professional developer</li>
+        </ul>
+    </section>
+
+    <footer>
+        © 2025 My Simple Website
+    </footer>
+
+</body>
+</html>
